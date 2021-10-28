@@ -1,0 +1,6 @@
+gitIntegration: myGitRepo
+gitRepositoryPath: frankzhu2003/dbom-cve  # replace jfrog with your username or org name
+artifactoryIntegration: etrainingArtifactory
+imageName: dbom_cve_docker_image
+artifactoryUrl: 10.178.0.17   # replace swampup with your server name
+sourceRepository: dbom-cve-docker-local  
