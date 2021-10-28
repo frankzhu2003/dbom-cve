@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt-get update && apt-get install curl
+RUN apt-get update && apt-get install -y curl
 
 RUN mkdir /opt/tomcat/
 
