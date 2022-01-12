@@ -5,4 +5,5 @@ RUN apt-get update && apt-get install -y curl
 RUN mkdir /opt/tomcat/
 
 WORKDIR /opt/tomcat
-RUN curl -O http://10.178.0.17:80/artifactory/maven-curated/org/apache/tomcat/embed/tomcat-embed-core/8.0.26/tomcat-embed-core-8.0.26.jar
+RUN curl -O http://10.178.0.42:8082/artifactory/maven-center/org/apache/logging/log4j/log4j-core/2.11.0/log4j-core-2.11.0.jar
+RUN curl -O http://10.178.0.42:8082/artifactory/maven-center/org/apache/tomcat/embed/tomcat-embed-core/8.0.26/tomcat-embed-core-8.0.26.jar
